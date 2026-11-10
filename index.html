@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banjosites - Freelance Front-end Web Developer in Barcelona</title>
+    <!-- Meta description -->
+    <meta name="description" content="A Frontend Web Developer in Barcelona. Some brands deserve a website that plays loud and clear, just like a banjo.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/banjosites_logo.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+    <!-- Header Navigation (No Logo/Brand) -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container d-flex justify-content-end">
+            <ul class="navbar-nav flex-row gap-4">
+                <li class="nav-item">
+                    <a class="nav-link text-white-50 hover-white" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white-50 hover-white" href="#tools">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white-50 hover-white" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <!-- Developer Illustration SVG -->
+            <img class="img-fluid" style="width: 30%;" src="assets/img/webdev at work.png">
+                <!-- Background Blob/Cloud -->
+                <path d="M70 120C60 60 130 20 200 30C260 10 330 50 340 110C360 170 330 240 270 250H110C50 250 40 180 70 120Z" fill="#3a3a3e"/>
+                <!-- Code Screen Lines behind dev -->
+                <g opacity="0.4" fill="#ffffff">
+                    <rect x="140" y="55" width="25" height="3" rx="1"/>
+                    <rect x="170" y="55" width="40" height="3" rx="1"/>
+                    <rect x="140" y="65" width="55" height="3" rx="1"/>
+                    <rect x="140" y="75" width="30" height="3" rx="1"/>
+                    <rect x="175" y="75" width="20" height="3" rx="1"/>
+                    
+                    <rect x="215" y="60" width="35" height="3" rx="1"/>
+                    <rect x="215" y="70" width="45" height="3" rx="1"/>
+                    <rect x="215" y="80" width="20" height="3" rx="1"/>
+                </g>
+                <!-- Chair Base -->
+                <path d="M135 150C135 150 130 260 135 270H265C270 260 265 150 265 150H135Z" fill="#121214"/>
+                <!-- Desk Surface -->
+                <rect x="65" y="265" width="270" height="6" fill="#e0e0e0" rx="2"/>
+                <!-- Potted Plant on Desk -->
+                <rect x="295" y="240" width="22" height="25" fill="#121214" rx="2"/>
+                <path d="M290 220C295 200 315 205 310 230C325 210 335 225 315 240Z" fill="#d1d1d6"/>
+                <!-- Laptop -->
+                <path d="M195 220L180 265H270L255 220H195Z" fill="#1c1c1f"/>
+                <path d="M200 222H250V260H200V222Z" fill="#38383d"/>
+                <!-- Developer Character -->
+                <!-- Hair -->
+                <path d="M165 125C160 100 180 85 200 85C225 85 235 105 230 125C220 115 210 120 200 118C185 115 175 125 165 125Z" fill="#121214"/>
+                <!-- Head & Face -->
+                <path d="M175 120C175 120 180 155 200 155C220 155 225 120 225 120H175Z" fill="#e5e5ea"/>
+                <!-- Sunglasses -->
+                <rect x="178" y="122" width="20" height="12" rx="3" fill="#121214"/>
+                <rect x="202" y="122" width="20" height="12" rx="3" fill="#121214"/>
+                <line x1="198" y1="126" x2="202" y2="126" stroke="#121214" stroke-width="2"/>
+                <!-- Nose & Mouth -->
+                <path d="M200 136V142L196 142" stroke="#a0a0a8" stroke-width="2" stroke-linecap="round"/>
+                <!-- Shirt -->
+                <path d="M150 270L165 165C175 160 225 160 235 165L250 270H150Z" fill="#f2f2f7"/>
+                <path d="M190 165L200 190L210 165" stroke="#d1d1d6" stroke-width="2"/>
+                <!-- Hands on Keyboard -->
+                <path d="M170 260C185 240 205 245 210 262" stroke="#e5e5ea" stroke-width="8" stroke-linecap="round"/>
+            </svg>
+
+            <!-- Main Heading with Gradient -->
+            <h1 class="hero-title">
+                Freelance front-end<br>web developer
+            </h1>
+
+            <!-- Subtitle Text -->
+            <p class="hero-tagline">
+                Some brands deserve a website that plays loud and clear, just like a banjo.
+                Let's make it happen.
+            </p>
+
+            <!-- Centered Vertical Divider Line -->
+            <div class="vertical-line"></div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Work Showcase Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Selected Projects</h2>
+            </div>
+
+            <div class="row g-4">
+                <!-- Project 1: Festival Al Ras -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-preview">
+                            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80" alt="Festival Al Ras preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">
+                                Festival Al Ras
+                                <i class="bi bi-arrow-up-right-circle fs-5" style="color: #ffaa5b;"></i>
+                            </div>
+                            <p class="project-description">
+                                Official website for Barcelona's premier Bluegrass & Old-Time music festival, campus information, location and many more.
+                            </p>
+                            <a href="https://alrasfestival.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                Visit alrasfestival.com <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Country Music University -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-preview">
+                            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=800&q=80" alt="Country Music University preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">
+                                Country Music University
+                                <i class="bi bi-arrow-up-right-circle fs-5" style="color: #ffaa5b;"></i>
+                            </div>
+                            <p class="project-description">
+                                Learn english language playing country music with Mike! 2 for 1!.
+                            </p>
+                            <a href="https://countrymusicuniversity.cat" target="_blank" rel="noopener noreferrer" class="project-link">
+                                Visit countrymusicuniversity.cat <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Newgrass Republic -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-preview">
+                            <img src="assets/img/newgrass.jpg" alt="Newgrass Republic preview" loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-title">
+                                Newgrass Republic Band
+                                <i class="bi bi-arrow-up-right-circle fs-5" style="color: #ffaa5b;"></i>
+                            </div>
+                            <p class="project-description">
+                                Band presentation page showcasing a media gallery for a contemporary acoustic group.
+                            </p>
+                            <a href="https://newgrassrepublic.cat" target="_blank" rel="noopener noreferrer" class="project-link">
+                                Visit newgrassrepublic.cat <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Centered Vertical Divider Line -->
+            <div class="vertical-line"></div>
+
+    <!-- Workflow Tools & Stack -->
+    <section id="tools" class="py-5 my-3">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Tech Stack</span>
+                <h2 class="section-title">Workflow tools & technologies</h2>
+            </div>
+
+            <div class="row g-3 justify-content-center">
+                <!-- Tool 1: AI / IA -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon text-warning">
+                            <i class="bi bi-cpu-fill"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">IA / AI</h3>
+                            <p class="tool-category">Inteligencia Artificial</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 2: Python -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon text-info">
+                            <i class="bi bi-filetype-py"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">Python</h3>
+                            <p class="tool-category">Scripting & Backend</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 3: WordPress -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon text-warning">
+                            <i class="bi bi-wordpress"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">WordPress</h3>
+                            <p class="tool-category">CMS & Custom Themes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 4: Astro -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon text-danger">
+                            <i class="bi bi-rocket-takeoff-fill"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">Astro</h3>
+                            <p class="tool-category">Static Web Framework</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 5: Bootstrap -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon" style="color: #7952b3;">
+                            <i class="bi bi-bootstrap-fill"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">Bootstrap</h3>
+                            <p class="tool-category">UI Framework</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 6: Netlify -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon text-success">
+                            <i class="bi bi-cloud-check-fill"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">Netlify</h3>
+                            <p class="tool-category">Hosting & Continuous Deploy</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 7: JavaScript -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon text-warning">
+                            <i class="bi bi-filetype-js"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">JavaScript</h3>
+                            <p class="tool-category">Frontend Logic</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tool 8: CSS3 -->
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="tool-card">
+                        <div class="tool-icon text-primary">
+                            <i class="bi bi-filetype-css"></i>
+                        </div>
+                        <div>
+                            <h3 class="tool-name">CSS3</h3>
+                            <p class="tool-category">Styling & Responsive Layouts</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Centered Vertical Divider Line -->
+            <div class="vertical-line"></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="cta-box">
+                <span class="section-subtitle">Get in touch</span>
+                <h2 class="display-6 fw-bold mb-3">Have a project in mind?</h2>
+                <p class="text-muted max-w-md mx-auto mb-2" style="max-width: 540px;">
+                    Whether you need a custom web application, landing page, or consultation, feel free to drop a message.
+                </p>
+                <div class="d-flex justify-content-center">
+                    <a href="mailto:hola@banjosites.cat" class="btn-banjo-primary">
+                        <i class="bi bi-envelope-paper-fill"></i> Email me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-3">
+            <div>
+                © <span id="year"></span> Banjosites
+            </div>
+            <div class="d-flex gap-3">
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#tools" class="footer-link">Tools</a>
+                <a href="mailto:hola@banjosites.cat" class="footer-link">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
