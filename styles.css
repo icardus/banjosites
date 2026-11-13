@@ -280,6 +280,30 @@
  }
 
  /*CUSTOM*/
+
+ @media (max-width: 991.98px) {
+   .navbar .navbar-nav {
+     width: 100%;
+     justify-content: center;
+   }
+ }
+
+ .navbar .nav-link.hover-white:hover {
+   color: #fff !important;
+ }
+
+  /* Por defecto (móviles y pantallas pequeñas) */
+ .img-hero {
+   width: 80%;
+ }
+
+/* A partir de pantallas medianas (768px en adelante, equivalente a 'md' de Bootstrap) */
+@media (min-width: 768px) {
+  .img-hero {
+    width: 400px !important; /* O el ancho que prefieras para escritorio */
+  }
+}
+
  .w-35 {
      width: 50% !important;
  }
